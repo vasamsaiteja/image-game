@@ -1,0 +1,55 @@
+.nav-container {
+  background-color: #2c0e3a;
+  height: 20vh;
+  background-size: cover;
+  padding: 20px;
+  width: 100vw;
+}
+.logo-image {
+  height: 40px;
+  border: 1px solid red;
+}
+.score-container {
+  border: 1px solid darkmagenta;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.top-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.timer-size {
+  height: 20px;
+  align-self: center;
+  margin-right: 5px;
+}
+.list-container {
+  list-style-type: none;
+  margin-right: 10px;
+  align-self: center;
+}
+.score-paragraph {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+span {
+  color: #fec653;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.seconds-count-paragraph {
+  color: #fec653;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 20px;
+}

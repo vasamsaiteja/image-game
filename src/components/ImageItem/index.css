@@ -1,0 +1,19 @@
+.thumbnail-container {
+  border: 1px solid greenyellow;
+  list-style-type: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.thumbnail-image-size {
+  height: 150px;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail-image-size {
+    height: 280px;
+  }
+}
+.image-button {
+  background-color: transparent;
+  border: O;
+  cursor: pointer;
+}
